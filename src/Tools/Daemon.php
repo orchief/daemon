@@ -25,7 +25,7 @@ class Daemon{
             return 'fork faile';
         } elseif ($pid) {
             //终止父进程
-            exit('parent process');
+            exit('Started');
         }
         //在子进程中创建新的会话
         if (posix_setsid() === -1) {
