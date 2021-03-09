@@ -12,7 +12,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Utility\\": "src/Tools"
+            "Tools\\": "src/Tools"
         },
         "files": [
             "src/Tools/Helpers.php"

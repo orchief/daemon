@@ -4,7 +4,7 @@ namespace Tools;
 /**
  * 常驻进程
  */
-class Deamon{
+class Daemon{
     protected $_pidFile;
     public function __construct($pidFile){
         $this->_pidFile = $pidFile;
@@ -134,5 +134,3 @@ class Deamon{
         }
     }
 }
-$deamon = new Deamon(dirname(__FILE__) . '/cache/report.log');
-$deamon->run($argv);
