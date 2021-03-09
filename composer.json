@@ -1,0 +1,21 @@
+{
+    "name": "orchief/tools",
+    "type": "library",
+    "license": "MIT",
+    "authors": [{
+        "name": "Orchief D",
+        "email": "orchief@163.com"
+    }],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Utility\\": "src/Tools"
+        },
+        "files": [
+            "src/Tools/Helpers.php"
+        ]
+    }
+}
