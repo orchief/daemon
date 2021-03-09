@@ -49,8 +49,7 @@ class Daemon{
     /**
      * 守护进程的任务
      */
-    private function job(){
-    }
+    protected function job(){}
 
     /**
      * 获取守护进程的id
